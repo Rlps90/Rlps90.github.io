@@ -1,0 +1,28 @@
+<!-- App para converter números binários para decimais -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimalizando</title>
+    <link rel="stylesheet" href="aparencia.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Seu Binário em Decimal</h1>
+        <div id="Solicitacao">Digite uma sequência de até 8 números utilizando apenas 0 e 1</div>
+        <!-- Coleta o valor para conversão -->
+        <p>Binário: <input type="text" id="binInput" onchange="converter()" placeholder="Digite um número" /></p>
+        <!-- Exibe o valor equivalente ao binário, em decimal -->
+        <p>Decimal: <input type="text" id="decOutput" readonly /></p>
+        <p><input type="button" value="CONVERTER" onclick="converter()" /></p>
+
+    </div>
+
+
+    <script src="logica.js"></script>
+</body>
+
+</html>
