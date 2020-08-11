@@ -1,0 +1,24 @@
+body {
+    background: chocolate;
+    font: normal 15pt Arial;
+}
+
+section {
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);
+    text-align: center;
+}
+
+#resultado {
+    text-align: center;
+}
+
+footer {
+    color: rgb(255, 240, 35);
+    text-align: center;
+    font-style: italic;
+}
