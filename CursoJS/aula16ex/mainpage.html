@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Analisador de Números</title>
+</head>
+
+<body>
+    <header>Analisador de Números</header>
+
+    <section>
+        <div>
+            <!-- Janela principal onde usuário insere informações, usa botões para solicitar resultado ou limpar informações -->
+            Número (entre 1 e 100):
+            <input type="number" name="numtxt" id="numtxt" placeholder="número">
+            <input type="button" value="Adicionar" onclick="adicionarNum()">
+            <select name="tabela" id="tabela" size="6">
+            </select>
+            <br><input type="button" id="finalizar" value="Finalizar" onclick="calculos()">
+            <input type="button" value="Limpar" onclick="limpar()">
+        </div>
+
+        <div id="resultado">
+            <!-- JavaScript insere os resultados de acordo com as informações inseridas -->
+        </div>
+    </section>
+
+    <footer>&copy; RlpsCO</footer>
+
+    <script src="mainlogics.js"></script>
+</body>
+
+</html>
